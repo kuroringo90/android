@@ -7,6 +7,7 @@
   <remove-project name="platform/bionic" />
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
+  <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/libs/systemui" />
@@ -39,8 +40,14 @@
   <project path="art" name="minaripenguin/android_art" remote="github" groups="pdk" revision="fourteen" />
   <project path="bionic" name="minaripenguin/android_bionic" remote="github" groups="pdk" revision="fourteen" />
   
+  <!-- Device -->
+  <project path="device/rising/sepolicy" name="RisingOS-staging/android_device_rising_sepolicy" remote="github" groups="pdk-cw-fs,pdk-fs" revision="fourteen-staging" />
+
   <!-- Recovery -->
   <project path="bootable/recovery" name="minaripenguin/android_bootable_recovery" remote="github" groups="pdk-cw-fs,pdk-fs" revision="fourteen" />
+
+  <!-- External -->
+  <project path="external/tinycompress" name="RisingOS-staging/android_external_tinycompress" remote="github" groups="pdk-cw-fs,pdk-fs" revision="fourteen-staging" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="minaripenguin/android_frameworks_av" remote="github" groups="pdk" revision="fourteen" />
@@ -58,6 +65,7 @@
   <project path="packages/apps/Personalizations" name="minaripenguin/android_packages_apps_Personalizations" groups="pdk-fs" remote="github" revision="fourteen" />
   <project path="packages/modules/Permission" name="minaripenguin/android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" remote="github" revision="fourteen" />
   
+  <!-- System  -->
   <project path="system/core" name="minaripenguin/android_system_core" remote="github" groups="pdk" revision="fourteen" />
   <project path="system/memory/lmkd" name="minaripenguin/android_system_memory_lmkd" remote="github" groups="pdk" revision="fourteen" />
   <project path="system/sepolicy" name="minaripenguin/android_system_sepolicy" remote="github" groups="pdk" revision="fourteen" />
