@@ -36,7 +36,7 @@
   </project>
 
   <!-- Manifest -->
-  <project path="android" name="minaripenguin/android" remote="github" groups="pdk-cw-fs,pdk-fs" revision="fourteen" />
+  <project path="android" name="kuroringo90/android" remote="github" groups="pdk-cw-fs,pdk-fs" revision="fourteen-staging" />
   
   <project path="art" name="minaripenguin/android_art" remote="github" groups="pdk" revision="fourteen" />
   <project path="bionic" name="minaripenguin/android_bionic" remote="github" groups="pdk" revision="fourteen" />
