@@ -8,8 +8,8 @@
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/external/tinycompress" />
-  <remove-project name="platform/externa/skia" />
-  <remove-project name="platform/externa/zxing" />
+  <remove-project name="platform/external/skia" />
+  <remove-project name="platform/external/zxing" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/libs/systemui" />
