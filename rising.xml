@@ -55,7 +55,7 @@
   <project path="bootable/recovery" name="minaripenguin/android_bootable_recovery" remote="github" groups="pdk-cw-fs,pdk-fs" revision="fourteen" />
 
   <!-- External -->
-  <project path="external/tinycompress" name="minaripenguin/android_external_tinycompress" remote="github" groups="pdk-cw-fs,pdk-fs" revision="fourteen" />
+  <project path="external/tinycompress" name="RisingOS-staging/android_external_tinycompress" remote="github" groups="pdk-cw-fs,pdk-fs" revision="fourteen-staging" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="minaripenguin/android_frameworks_av" remote="github" groups="pdk" revision="fourteen" />
