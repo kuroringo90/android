@@ -7,6 +7,8 @@
   <remove-project name="platform/bionic" />
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
+  <remove-project name="platform/external/android-nn-driver" />
+  <remove-project name="platform/external/armnn" />
   <remove-project name="platform/external/libaom" />
   <remove-project name="platform/external/skia" />
   <remove-project name="platform/external/zxing" />
@@ -39,7 +41,7 @@
   </project>
 
   <!-- Manifest -->
-  <project path="android" name="minaripenguin/android" remote="github" groups="pdk-cw-fs,pdk-fs" revision="fourteen" />
+  <project path="android" name="kuroringo90/android" remote="github" groups="pdk-cw-fs,pdk-fs" revision="rising" />
   
   <project path="art" name="minaripenguin/android_art" remote="github" groups="pdk" revision="fourteen" />
   <project path="bionic" name="minaripenguin/android_bionic" remote="github" groups="pdk" revision="fourteen" />
@@ -58,6 +60,8 @@
   <project path="bootable/recovery" name="minaripenguin/android_bootable_recovery" remote="github" groups="pdk-cw-fs,pdk-fs" revision="fourteen" />
 
   <!-- External -->
+  <project path="external/android-nn-driver" name="minaripenguin/android_external_android-nn-driver" remote="github" groups="pdk-lassen,pdk-gs-arm" revision="fourteen" />
+  <project path="external/armnn" name="minaripenguin/android_external_armnn" remote="github" groups="pdk-lassen,pdk-gs-arm" revision="fourteen" />
   <project path="external/libaom" name="minaripenguin/android_external_libaom" groups="pdk" remote="github" revision="fourteen" />
   <project path="external/skia" name="minaripenguin/android_external_skia" groups="pdk,qcom_msm8x26" remote="github" revision="fourteen" />
   <project path="external/zxing" name="minaripenguin/android_external_zxing" groups="pdk" remote="github" revision="fourteen" />
