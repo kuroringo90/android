@@ -14,12 +14,14 @@
   <remove-project name="platform/external/zxing" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/libs/net" />
   <remove-project name="platform/frameworks/libs/systemui" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/hardware/google/pixel" />
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/modules/Connectivity" />
   <remove-project name="platform/packages/modules/Permission" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/memory/lmkd" />
@@ -69,6 +71,7 @@
   <!-- Frameworks -->
   <project path="frameworks/av" name="minaripenguin/android_frameworks_av" remote="github" groups="pdk" revision="fourteen" />
   <project path="frameworks/base" name="minaripenguin/android_frameworks_base" remote="github" groups="pdk-cw-fs,pdk-fs" revision="fourteen" />
+  <project path="frameworks/libs/net" name="minaripenguin/android_frameworks_libs_net" groups="pdk-cw-fs,pdk-fs" remote="github" revision="fourteen" />
   <project path="frameworks/libs/systemui" name="minaripenguin/android_frameworks_libs_systemui" remote="github" groups="pdk-cw-fs,pdk-fs" revision="fourteen" />
   <project path="frameworks/native" name="minaripenguin/android_frameworks_native" remote="github" groups="pdk" revision="fourteen" />
 
@@ -81,6 +84,9 @@
   <project path="packages/apps/Launcher3" name="minaripenguin/android_packages_apps_Launcher3" remote="github" revision="fourteen" />
   <project path="packages/apps/Settings" name="minaripenguin/android_packages_apps_Settings" groups="pdk-fs" remote="github" revision="fourteen" />
   <project path="packages/apps/Personalizations" name="minaripenguin/android_packages_apps_Personalizations" groups="pdk-fs" remote="github" revision="fourteen" />
+  
+  <!-- AOSP Modules  -->
+  <project path="packages/modules/Connectivity" name="minaripenguin/android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="github" revision="fourteen" />
   <project path="packages/modules/Permission" name="minaripenguin/android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" remote="github" revision="fourteen" />
 
   <!-- System  -->
